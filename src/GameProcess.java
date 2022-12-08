@@ -33,7 +33,7 @@ class GameProcess{
 
     /*** Method startingSequence: The starting sequence in order to play TicTacToe. ***/
     public void startingSequence(int choice){
-        if(choice == 1){
+        if(this.choice == 1 && choice == this.choice){
             System.out.println();
             System.out.println("This is the board.");
             System.out.println("- - - - - - - - ");
